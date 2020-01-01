@@ -1,0 +1,52 @@
+#left-menu {
+    float: left;
+}
+#right-menu {
+    float: right;
+}
+#right-menu-text {
+    display: inline-block;
+}
+#right-menu-icons {
+    display: inline-block;
+}
+#sign-in {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 30;
+    background-color: blue;
+    border:none;
+}
+#sign-in:active {
+    background-color: lightblue;
+}
+input {
+    border: 2px solid red;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+#center {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-align: center;
+}
+#left-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#right-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+a:hover{
+    text-decoration: underline;
